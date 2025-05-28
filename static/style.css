@@ -5,13 +5,14 @@
     --color-text: black;
     --wrapper-height: 100vh;
     --image-max-width: 320px;
-    --font-family: Cambria;
+    --font-family: Helvetica;
     --image-bg: linear-gradient(to bottom right, white, #ffdde1);
   }
 
   /* Page structure */
   body {
     font-family: var(--font-family);
+    font-weight: bold;
     background-color: var(--color-bg);
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -48,5 +49,6 @@
 .h1 {
     color: rgb(3, 60, 58);
     font-size: 150%;
+    font-weight: bold;
     margin-top: 1rem;
 }
